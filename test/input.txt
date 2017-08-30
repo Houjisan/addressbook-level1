@@ -60,6 +60,10 @@
   find Dickson
   # find multiple with some keywords
   find Charlie Betsy
+  # find with phone number
+  find 111111
+  #find with email
+  find esther@notreal.potato
 
 ##########################################################
 # test delete person command
@@ -77,8 +81,8 @@
   delete 3
 
   # should catch attempt to delete something already deleted
-  delete 2
-  delete 2
+  delete 1
+  delete 1
 
   # should have deleted based on last active view's index
   list
